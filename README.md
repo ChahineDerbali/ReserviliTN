@@ -1,36 +1,40 @@
-# Reservili
+# 🎉 Welcome to Reservili!
 
-Reservili is a PHP-based web application for managing events and reservations. It allows users to browse, search, and reserve events, while administrators can create, edit, and delete events. The project uses MySQL for data storage and features user authentication with role-based access.
+**Reservili** is a clean and simple PHP-based web app designed to manage events and reservations with ease. Whether you're a user looking to book an event or an admin managing the system, Reservili has you covered. It features a responsive interface, role-based access, and a MySQL database for seamless data handling.
 
-## Features
+---
 
-- **User Authentication**
-  - Sign up, log in, and log out
-  - Session-based user roles (user/admin)
+## ✨ Key Features
 
-- **Event Management**
-  - Browse and search events by category or name
-  - Reserve and cancel reservations for events
-  - View personal reservations
+### 🔐 User Authentication
+- Sign up, log in, and log out
+- Role-based sessions (User / Admin)
 
-- **Admin Dashboard**
-  - Create, edit, and delete events
-  - Manage all reservations
+### 📅 Event Management
+- Browse and search events by name or category
+- Reserve and cancel event reservations
+- View your reservation history
 
-- **Database**
-  - MySQL database for users, events, and reservations
+### 🛠️ Admin Dashboard
+- Create, edit, and delete events
+- Manage all user reservations
 
-- **UI & Styling**
-  - Responsive design with custom CSS
+### 🗄️ Database
+- MySQL-powered backend for users, events, and reservations
 
-- **Static Pages**
-  - About and Contact pages
+### 🎨 UI & Styling
+- Responsive and user-friendly design with custom CSS
 
+### 📄 Static Pages
+- Informative **About** and **Contact** pages
 
-## Getting Started
+---
+
+## 🚀 Getting Started
 
 1. **Clone the repository**
-2. **Set up the MySQL database** using the provided schema (see `includes/db.php` for connection details)
-3. **Configure database credentials** in `includes/db.php`
-4. **Run the application** on a local PHP server (e.g., XAMPP, WAMP, or `php -S localhost:8000`)
-
+2. **Set up your MySQL database** (use the schema provided)
+3. **Update your DB credentials** in `includes/db.php`
+4. **Run the app** using a local PHP server:
+   ```bash
+   php -S localhost:8000
