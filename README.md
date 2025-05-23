@@ -2,7 +2,6 @@
 
 **Reservili** is a clean and simple PHP-based web app designed to manage events and reservations with ease. Whether you're a user looking to book an event or an admin managing the system, Reservili has you covered. It features a responsive interface, role-based access, and a MySQL database for seamless data handling.
 
----
 
 ## ✨ Key Features
 
@@ -28,7 +27,6 @@
 ### 📄 Static Pages
 - Informative **About** and **Contact** pages
 
----
 
 ## 🚀 Getting Started
 
